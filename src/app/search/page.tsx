@@ -10,7 +10,7 @@ export function generateMetadata({
   searchParams: { query },
 }: SearchPageProps): Metadata {
   return {
-    title: `Search: ${query}`,
+    title: `Search Results for query: ${query}`,
   };
 }
 
