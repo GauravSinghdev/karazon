@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: {
     template: "%s | Karazon",
-    default: "Karazon | supxdevs",
+    default: "Karazon App - Ecommerce website for Home Appliances and Books",
   },
   description: "We make your wallet cry",
 };
