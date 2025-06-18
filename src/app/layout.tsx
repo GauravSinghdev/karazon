@@ -7,7 +7,10 @@ import SessionProvider from "./SessionProvider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Karazon",
+  title: {
+    template: "%s | Karazon",
+    default: "Karazon | supxdevs",
+  },
   description: "We make your wallet cry",
 };
 
